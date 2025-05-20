@@ -21,5 +21,5 @@ Questo progetto fornisce una base per una semplice Command-Line Interface (CLI) 
  * eseguire i test con : npm jest
 
  ## CI
- * on push su main le actions buildano il progetto ed eseguono i test
+ * on push su main le actions copiano la repository con actions/checkout@v4, buildano il progetto, eseguono i test, e pubblicano la coverage 
 
