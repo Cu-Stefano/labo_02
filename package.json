@@ -1,12 +1,22 @@
 {
   "name": "labo-string",
   "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
+  "description": "a Command-Line Interface (CLI) Node.js made with node.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm jest"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["CLI", "node.js"],
+  "author": "Cu_Stefano",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "jest" : "29.7.0"
+  },
+  "repository": {
+    "directory" : "https://github.com/Cu-Stefano/labo_02" 
+  },
+  "bugs": {
+    "url": "https://github.com/Cu-Stefano/labo_02/issues"
+  }
 }
